@@ -3,17 +3,12 @@
     "keywords": ["library", "codeigniter", "rabbitmq"],
     "description": "CodeIgniter Library for RabbitMQ interactions with CodeIgniter using PHP-AMQPLib",
     "homepage": "https://github.com/romainrg/codeigniter-rabbitmq-library.git",
-    "license": "MIT License",
+    "license": "LGPL-3.0-or-later",
     "type": "codeigniter-third-party",
     "authors": [
         {
             "name": "Romain Gallien",
             "email": "romaingallien.rg@gmail.com",
-            "role": "WEB/PHP Developer"
-        },
-        {
-            "name": "Stéphane Lucien-Vauthier",
-            "email": "s.lucien_vauthier@santiane.fr",
             "role": "WEB/PHP Developer"
         }
     ],
