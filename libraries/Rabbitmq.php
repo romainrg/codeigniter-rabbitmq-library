@@ -119,7 +119,7 @@ class Rabbitmq {
             $this->channel->basic_qos(null, 1, null);
 
             // Define consuming with 'process' callback
-            $this->channel->basic_consume($queue, '', false, false, false, false, $callback);
+            $this->channel->basic_consume($queue, '', false, true, false, false, $callback);
 
             // Continue the process of CLI command, waiting for others instructions
             while (count($this->channel->callbacks)) {
